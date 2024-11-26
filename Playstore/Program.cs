@@ -1,4 +1,6 @@
 ﻿using Playstore;
+int x = 10;
+int y = x;
 
 Console.WriteLine("My Play Store");
 // Creating object / How to create object for class?
@@ -14,3 +16,4 @@ Console.WriteLine(categories.Description);
 
 categories.AddCategory(1, "ABC");
 categories.AddCategory(2, "XYZ", "Test");
+
